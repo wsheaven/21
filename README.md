@@ -5,7 +5,7 @@ This is a kotlin program of the common game 21 or blackjack. It is a simple cons
 I recently decided that I wanted to learn kotlin, at the same time some friends of mine hat gotten into playing 21 in their spare time so I decided the best way to combine the two would be to create 21 in kotlin! Because I am already familiar with the game I was able to focus on the syntax of kotlin and becoming more familiar with it. 
 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/rsQ1DbGzOyM)
 
 # Development Environment
 
