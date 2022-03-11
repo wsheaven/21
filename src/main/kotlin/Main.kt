@@ -260,7 +260,7 @@ fun main(args: Array<String>) {
 
 
     println()
-    // game(player, dealer)
+
     val game = Game(dealer, player)
 
     while (player.money > 0){
