@@ -1,7 +1,6 @@
 class Player() {
 
     var money = 10
-    var bust = false
 
     val cards = arrayOf(
         "Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten",
@@ -9,7 +8,7 @@ class Player() {
     )
 
     val cardWorth = mapOf(
-        "Ace" to 1, "Two" to 2, "Three" to 3, "Four" to 4, "Five" to 5, "Six" to 6, "Seven" to 7,
+        "Two" to 2, "Three" to 3, "Four" to 4, "Five" to 5, "Six" to 6, "Seven" to 7,
         "Eight" to 8, "Nine" to 9, "Ten" to 10, "Jack" to 10, "Queen" to 10, "King" to 10
     )
 
@@ -77,7 +76,6 @@ class Dealer() {
 
     val hand = mutableListOf<String>()
 
-    var bust = false
 
     init {
         getCard()
@@ -133,15 +131,6 @@ class Dealer() {
      var dealer = dealer
      var playerBet = 0
      var progress = 0
-
-
-     fun test() {
-         println("Player hand is " + player.hand)
-         println("Player total is " + player.playerTotal())
-
-         println("Dealer hand is " + dealer.hand)
-         println("Dealer total is " + dealer.playerTotal())
-     }
 
 
      fun play(): Boolean {
@@ -258,7 +247,6 @@ fun main(args: Array<String>) {
     var player = Player()
 
 
-    println()
 
     val game = Game(dealer, player)
 
