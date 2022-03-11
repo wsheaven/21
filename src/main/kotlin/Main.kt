@@ -258,7 +258,6 @@ fun main(args: Array<String>) {
     var player = Player()
 
 
-
     println()
 
     val game = Game(dealer, player)
